@@ -1,0 +1,107 @@
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Inter", ui-sans-serif, system-ui, sans-serif;
+  --font-mono: "JetBrains Mono", ui-monospace, SFMono-Regular, monospace;
+}
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+  }
+
+  body {
+    @apply bg-[#0b0c1e] text-slate-200 antialiased selection:bg-[#f2c98a]/30 selection:text-white overflow-x-hidden;
+  }
+
+  /* Custom Scrollbar */
+  ::-webkit-scrollbar {
+    width: 6px;
+  }
+  ::-webkit-scrollbar-track {
+    @apply bg-[#0b0c1e];
+  }
+  ::-webkit-scrollbar-thumb {
+    @apply bg-slate-800 rounded-full hover:bg-[#f2c98a] transition-colors;
+  }
+}
+
+@layer components {
+  .space-bg {
+    background: radial-gradient(circle at 50% 50%, #151632 0%, #0b0c1e 100%);
+    position: fixed;
+    inset: 0;
+    z-index: -2;
+  }
+
+  .star-field {
+    position: fixed;
+    inset: 0;
+    z-index: -1;
+    background-image: 
+      radial-gradient(1px 1px at 25px 35px, #fff, rgba(0,0,0,0)),
+      radial-gradient(1px 1px at 50px 75px, #fff, rgba(0,0,0,0)),
+      radial-gradient(1.5px 1.5px at 100px 150px, #fff, rgba(0,0,0,0)),
+      radial-gradient(1px 1px at 150px 250px, #fff, rgba(0,0,0,0)),
+      radial-gradient(2px 2px at 200px 50px, #fff, rgba(0,0,0,0)),
+      radial-gradient(1.5px 1.5px at 250px 100px, #fff, rgba(0,0,0,0));
+    background-repeat: repeat;
+    background-size: 300px 300px;
+    opacity: 0.2;
+  }
+
+  .glass-card {
+    @apply bg-[#1e1e38]/80 backdrop-blur-xl border border-white/5 shadow-2xl;
+  }
+  
+  .tech-tag {
+    @apply px-2.5 py-1 bg-[#2a2a4d] border border-white/5 text-slate-400 rounded-full text-[9px] font-bold uppercase tracking-wider;
+  }
+
+  .nav-btn {
+    @apply w-10 h-10 flex items-center justify-center rounded-full transition-all duration-300 text-slate-500 hover:text-white bg-white/5 border border-white/10;
+  }
+
+  .nav-btn.active {
+    @apply bg-[#f2c98a] text-[#0b0c1e] shadow-[0_0_20px_rgba(242,201,138,0.4)] border-transparent;
+  }
+
+  .primary-btn {
+    @apply px-10 py-3.5 bg-[#f2c98a] text-[#0b0c1e] font-black uppercase tracking-widest text-xs rounded-xl transition-all shadow-xl hover:scale-105 active:scale-95 disabled:opacity-50;
+  }
+
+  .secondary-btn {
+    @apply px-10 py-3.5 bg-white/5 border border-white/10 text-white font-black uppercase tracking-widest text-xs rounded-xl transition-all hover:bg-white/10 active:scale-95;
+  }
+
+  .highlight {
+    @apply text-[#f2c98a] font-bold;
+  }
+
+  .progress-rail {
+    @apply h-1.5 w-full bg-white/5 rounded-full overflow-hidden;
+  }
+
+  .progress-fill {
+    @apply h-full bg-gradient-to-r from-blue-500 via-cyan-400 to-[#f2c98a] rounded-full shadow-[0_0_10px_rgba(52,211,153,0.3)];
+  }
+}
+
+/* Animations */
+@keyframes star-float {
+  0% { transform: translateY(0); }
+  100% { transform: translateY(-300px); }
+}
+
+.animate-stars {
+  animation: star-float 100s linear infinite;
+}
+
+@keyframes planet-sway {
+  0%, 100% { transform: translate(0, 0) rotate(0deg); }
+  50% { transform: translate(10px, -10px) rotate(5deg); }
+}
+
+.animate-planet {
+  animation: planet-sway 15s ease-in-out infinite;
+}
