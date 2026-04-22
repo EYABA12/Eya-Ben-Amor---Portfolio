@@ -1,20 +1,43 @@
-<div align="center">
-<img width="1200" height="475" alt="GHBanner" src="https://github.com/user-attachments/assets/0aa67016-6eaf-458a-adb2-6e31a0763ed6" />
-</div>
+# Eya Ben Amor — Portfolio
 
-# Run and deploy your AI Studio app
+Professional portfolio of a **Junior Fullstack & DevOps Engineer**.
 
-This contains everything you need to run your app locally.
+## 🚀 Overview
 
-View your app in AI Studio: https://ai.studio/apps/6f33403a-9a7e-4dd9-ba93-dc4d4c7bab7f
+This project is a modern, responsive portfolio built with **React 19**, **Tailwind CSS**, and **Framer Motion**. It showcases full-stack development skills, cloud-native deployments, and AI integration.
 
-## Run Locally
+## 🛠️ Tech Stack
 
-**Prerequisites:**  Node.js
+- **Frontend:** React 19, Vite, Framer Motion, Lucide Icons
+- **Styling:** Tailwind CSS (Mobile-first design)
+- **Deployment & DevOps:** Docker, Kubernetes, GitHub Actions, Azure Cloud
+- **AI Integration:** Google Gemini API (featured in X-Table)
 
+## 📂 Key Projects
 
-1. Install dependencies:
-   `npm install`
-2. Set the `GEMINI_API_KEY` in [.env.local](.env.local) to your Gemini API key
-3. Run the app:
-   `npm run dev`
+1. **Restaurant Management Application:** Full-stack Java (Spring Boot) & Angular app with Python automation and JWT security.
+2. **E-commerce Platform:** Cloud-native architecture deployed on Azure via custom CI/CD pipelines.
+3. **Kubernetes Automated Deployment:** GitOps workflow using Jenkins and ArgoCD for zero-downtime deployments.
+4. **X-Table:** Intelligent data extraction tool leveraging AI to transform unstructured data into structured Excel files.
+
+## 📜 Certification
+
+- **ISTQB® Certified Tester:** Foundation Level.
+
+## ⚙️ Development
+
+To run the project locally:
+
+```bash
+# Install dependencies
+npm install
+
+# Start development server
+npm run dev
+
+# Build for production
+npm run build
+```
+
+---
+Developed with excellence and continuous improvement in mind.
