@@ -61,7 +61,7 @@ const PROJECTS: Project[] = [
   {
     id: "restaurant",
     period: "01/2026 – 02/2026",
-    tags: ["Angular", "Spring Boot", "Docker", "Python"],
+    tags: ["Angular", "Spring Boot", "Docker", "Python", "Git"],
     image: "https://picsum.photos/seed/restaurant-new/800/500",
     techIcons: [Database, Lock],
     repo: "https://github.com/EYABA12/Freelance-Software-Developer-Restaurant-Management-Application",
@@ -120,7 +120,7 @@ const PROJECTS: Project[] = [
   {
     id: "ecommerce",
     period: "01/2024 – 04/2024",
-    tags: ["Angular", "Spring Boot", "Docker", "Azure"],
+    tags: ["Angular", "Spring Boot", "Spring Security", "Docker", "Azure"],
     image: "https://picsum.photos/seed/azure-ecommerce/800/500",
     techIcons: [Cloud, Shield],
     videoDev: "https://player.vimeo.com/video/942130175",
@@ -140,10 +140,13 @@ const PROJECTS: Project[] = [
         techDetails: [
           "Angular",
           "Spring Boot",
+          "Spring Security",
+          "JWT",
           "MySQL",
           "Docker",
           "GitHub Actions",
-          "Azure Cloud"
+          "Azure Cloud",
+          "Git"
         ]
       },
       en: {
@@ -160,10 +163,13 @@ const PROJECTS: Project[] = [
         techDetails: [
           "Angular",
           "Spring Boot",
+          "Spring Security",
+          "JWT",
           "MySQL",
           "Docker",
           "GitHub Actions",
-          "Azure Cloud"
+          "Azure Cloud",
+          "Git"
         ]
       }
     }
@@ -224,7 +230,7 @@ const PROJECTS: Project[] = [
   {
     id: "x-table",
     period: "03/2026 – 04/2026",
-    tags: ["React 19", "Gemini API", "AI Extraction"],
+    tags: ["React 19", "Gemini API", "AI Extraction", "Git"],
     image: "https://picsum.photos/seed/ai-extract-new/800/500",
     techIcons: [Sparkles, Shield],
     demo: "https://extracteur-tableau-client.vercel.app/",
@@ -239,7 +245,7 @@ const PROJECTS: Project[] = [
           "AI Reads: Instant table extraction.",
           "Download: Export to perfect Excel files."
         ],
-        techDetails: ["React 19", "Google Gemini API", "Tailwind CSS", "Framer Motion"],
+        techDetails: ["React 19", "Google Gemini API", "Tailwind CSS", "Framer Motion", "Git"],
         problem: "We all hate this: staring at a PDF or image invoice and typing every row into an Excel sheet. It's very slow, boring, and easy to make mistakes.",
         solution: "I built X-Table. It's a smart tool that saves you time by doing the work for you! You can even use it on your mobile phone. 1. Upload. 2. AI Reads. 3. Download perfect Excel.",
         result: "AI is smart but not perfect. Always use the side-by-side view to check your data. Processing might take a few seconds for complex tables."
@@ -254,7 +260,7 @@ const PROJECTS: Project[] = [
           "IA Lit : Extraction instantanée des tableaux.",
           "Download : Export vers des fichiers Excel parfaits."
         ],
-        techDetails: ["React 19", "Google Gemini API", "Tailwind CSS", "Framer Motion"],
+        techDetails: ["React 19", "Google Gemini API", "Tailwind CSS", "Framer Motion", "Git"],
         problem: "On déteste tous ça : fixer une facture PDF ou une image et taper chaque ligne dans Excel. C'est lent, ennuyeux, et source d'erreurs fréquentes.",
         solution: "J'ai créé X-Table. Un outil intelligent qui vous fait gagner du temps ! Utilisable aussi sur mobile. 1. Upload. 2. L'IA lit tout. 3. Téléchargez l'Excel.",
         result: "L'IA est intelligente mais pas parfaite. Utilisez toujours la vue côte-à-côte pour vérifier vos données."
@@ -266,7 +272,7 @@ const PROJECTS: Project[] = [
 // --- Translations ---
 const UI_TEXT = {
   en: {
-    role: "Full Stack & Devops Engineer | ISTQB® Certified",
+    role: "Full Stack Software Engineer & DevOps | ISTQB® Certified",
     about: "Computer Science Engineer specialized in developing secure web applications with Java Spring Boot and Angular. I have practical experience covering the entire software development lifecycle, from design to deployment via CI/CD pipelines and containerization with Docker. Result-oriented, I apply development best practices (Clean Code, SOLID) to ensure the quality, maintainability, and security of applications. I also leverage generative AI tools to accelerate delivery, automate tasks, and improve code quality. Motivated to join an ambitious technical team where excellence, innovation, and continuous improvement are at the heart of product development.",
     connect: "Connect",
     viewDetails: "TECHNICAL CASE STUDY",
@@ -285,7 +291,7 @@ const UI_TEXT = {
     coreSkills: ["Java / Spring Boot", ".NET / C#", "Angular / React", "SOLID / Clean Code", "OWASP Security", "SQL Server / MySQL"]
   },
   fr: {
-    role: "Ingénieure Full Stack & Devops | Certifiée ISTQB®",
+    role: "Ingénieure Full Stack & DevOps | Certifiée ISTQB®",
     about: "Ingénieure en informatique spécialisée dans le développement d’applications web sécurisées avec Java Spring Boot et Angular. Je possède une expérience pratique couvrant l’ensemble du cycle de développement logiciel, de la conception au déploiement via des pipelines CI/CD et la conteneurisation avec Docker. Orientée résultats, j’applique les bonnes pratiques de développement (Clean Code, SOLID) afin de garantir la qualité, la maintenabilité et la sécurité des applications. J’exploite également les outils d’IA générative pour accélérer la livraison, automatiser certaines tâches et améliorer la qualité du code. Motivée à rejoindre une équipe technique ambitieuse, où l’excellence, l’innovation et l’amélioration continue sont au cœur du développement des produits.",
     connect: "Contact",
     viewDetails: "ÉTUDE DE CAS TECHNIQUE",
@@ -334,9 +340,9 @@ export default function App() {
         {/* Header Section */}
         <header className="mb-24 text-center lg:text-left">
           <motion.div initial={{ opacity: 0, x: -20 }} animate={{ opacity: 1, x: 0 }}>
-            <h1 className="text-6xl md:text-7xl font-black text-white italic tracking-tighter mb-4">Eya Ben Amor</h1>
-            <h2 className="text-sm font-black uppercase tracking-[0.4em] text-[#f2c98a] mb-6 italic border-l-4 border-[#f2c98a] pl-6 block">{t.role}</h2>
-            <p className="max-w-2xl text-slate-300 text-sm font-medium leading-relaxed italic mb-8 opacity-80">{t.about}</p>
+            <h1 className="text-6xl md:text-7xl font-black text-white tracking-tighter mb-4">Eya Ben Amor</h1>
+            <h2 className="text-sm font-black uppercase tracking-[0.4em] text-[#f2c98a] mb-6 border-l-4 border-[#f2c98a] pl-6 block">{t.role}</h2>
+            <p className="max-w-2xl text-slate-100 text-sm font-medium leading-relaxed mb-8 opacity-90">{t.about}</p>
             
             <div className="flex flex-wrap justify-center lg:justify-start gap-2 mb-10">
               {t.coreSkills.map((skill: string) => (
@@ -360,13 +366,13 @@ export default function App() {
               <div className="hidden lg:block w-[1px] h-12 bg-white/10 mx-2" />
 
               <div className="flex gap-3">
-                 <a href="https://drive.google.com/file/d/1JK5YTRDLhAvBbOHWuMZC2mE_lWvRPGl1/view" target="_blank" className="flex items-center gap-2 bg-white/5 border border-white/10 px-4 py-4 rounded-2xl hover:border-cyan-400/50 transition-all text-slate-400 hover:text-cyan-400">
+                 <a href="https://drive.google.com/file/d/1JK5YTRDLhAvBbOHWuMZC2mE_lWvRPGl1/view" target="_blank" className="flex items-center gap-2 bg-white/5 border border-white/10 px-4 py-4 rounded-2xl hover:border-cyan-400/50 transition-all text-white/70 hover:text-cyan-400">
                     <Shield size={14} /> <span className="text-[9px] font-black uppercase tracking-tighter">ISTQB</span>
                  </a>
-                 <a href="https://drive.google.com/file/d/1IepHdISIVy9sG8TNaELfqvFVJ-bffZAX/view?pli=1" target="_blank" className="flex items-center gap-2 bg-white/5 border border-white/10 px-4 py-4 rounded-2xl hover:border-emerald-400/50 transition-all text-slate-400 hover:text-emerald-400">
+                 <a href="https://drive.google.com/file/d/1IepHdISIVy9sG8TNaELfqvFVJ-bffZAX/view?pli=1" target="_blank" className="flex items-center gap-2 bg-white/5 border border-white/10 px-4 py-4 rounded-2xl hover:border-emerald-400/50 transition-all text-white/70 hover:text-emerald-400">
                     <Layers size={14} /> <span className="text-[9px] font-black uppercase tracking-tighter">SCRUM</span>
                  </a>
-                 <a href="https://drive.google.com/file/d/135UF7Ue34tJNxZBqHZIbMF" target="_blank" className="flex items-center gap-2 bg-white/5 border border-white/10 px-4 py-4 rounded-2xl hover:border-blue-400/50 transition-all text-slate-400 hover:text-blue-400">
+                 <a href="https://drive.google.com/file/d/135UF7Ue34tJNxZBqHZIbMF" target="_blank" className="flex items-center gap-2 bg-white/5 border border-white/10 px-4 py-4 rounded-2xl hover:border-blue-400/50 transition-all text-white/70 hover:text-blue-400">
                     <Cloud size={14} /> <span className="text-[9px] font-black uppercase tracking-tighter">AZURE</span>
                  </a>
               </div>
@@ -407,8 +413,8 @@ export default function App() {
 
                 <div className="p-12 flex flex-col justify-between flex-grow">
                   <div>
-                    <h4 className="text-2xl font-black text-white italic mb-6 leading-tight group-hover:text-[#f2c98a] transition-all">{content.title}</h4>
-                    <p className="text-slate-200 text-[13px] mb-10 leading-relaxed font-medium bg-white/5 p-8 rounded-[2.5rem] border-l-4 border-[#f2c98a] italic group-hover:bg-white/10 transition-colors">
+                    <h4 className="text-2xl font-black text-white mb-6 leading-tight group-hover:text-[#f2c98a] transition-all">{content.title}</h4>
+                    <p className="text-slate-100 text-[13px] mb-10 leading-relaxed font-medium bg-white/5 p-8 rounded-[2.5rem] border-l-4 border-[#f2c98a] group-hover:bg-white/10 transition-colors">
                       {content.summary}
                     </p>
                   </div>
@@ -416,7 +422,7 @@ export default function App() {
                   <div className="flex items-center justify-between pt-6 border-t border-white/5">
                      <div className="flex flex-wrap gap-2">
                         {prj.tags.slice(0, 3).map(tag => (
-                          <span key={tag} className="text-[9px] font-black uppercase text-slate-500 tracking-widest">{tag}</span>
+                          <span key={tag} className="text-[9px] font-black uppercase text-white/50 tracking-widest">{tag}</span>
                         ))}
                      </div>
                      <div className="text-[10px] font-black text-[#f2c98a] flex items-center gap-2 group-hover:translate-x-2 transition-transform uppercase">
@@ -453,13 +459,13 @@ export default function App() {
                 <X size={24} />
               </button>
 
-              <div className="overflow-y-auto custom-scroll p-8 md:p-20">
-                <div className="flex flex-col md:flex-row gap-12 mb-16">
+                <div className={`overflow-y-auto custom-scroll p-8 md:p-20 ${!(selectedProject.content[lang].problem || selectedProject.content[lang].solution) ? 'space-y-0' : ''}`}>
+                  <div className={`flex flex-col md:flex-row gap-12 ${!(selectedProject.content[lang].problem || selectedProject.content[lang].solution) ? 'mb-8' : 'mb-16'}`}>
                   <div className="flex-1">
-                    <span className="text-[10px] font-black uppercase tracking-[0.4em] text-[#f2c98a] mb-4 block italic underline decoration-[#f2c98a]/30 underline-offset-8">CASE STUDY</span>
-                    <h2 className="text-4xl md:text-5xl font-black text-white italic tracking-tighter mb-8 leading-none">{selectedProject.content[lang].title}</h2>
+                    <span className="text-[10px] font-black uppercase tracking-[0.4em] text-[#f2c98a] mb-4 block underline decoration-[#f2c98a]/30 underline-offset-8">CASE STUDY</span>
+                    <h2 className="text-4xl md:text-5xl font-black text-white tracking-tighter mb-8 leading-none">{selectedProject.content[lang].title}</h2>
                     <div className="flex flex-wrap gap-3">
-                      {selectedProject.tags.map(tag => <span key={tag} className="px-4 py-1.5 bg-white/5 border border-white/5 rounded-xl text-[10px] font-bold text-slate-400">{tag}</span>)}
+                      {selectedProject.tags.map(tag => <span key={tag} className="px-4 py-1.5 bg-white/5 border border-white/10 rounded-xl text-[10px] font-bold text-white/80">{tag}</span>)}
                     </div>
                   </div>
                   <div className="md:w-1/3 flex flex-col gap-4">
@@ -481,12 +487,12 @@ export default function App() {
                      {(selectedProject.videoDev || selectedProject.videoDevOps) && (
                       <div className="grid grid-cols-1 gap-3">
                         {selectedProject.videoDev && (
-                          <a href={selectedProject.videoDev} target="_blank" className="w-full px-8 py-5 border border-white/10 text-slate-300 font-black uppercase tracking-widest text-[10px] rounded-2xl text-center hover:bg-white/5 transition-all flex items-center justify-center gap-3">
+                          <a href={selectedProject.videoDev} target="_blank" className="w-full px-8 py-5 border border-white/10 text-white/80 font-black uppercase tracking-widest text-[10px] rounded-2xl text-center hover:bg-white/5 transition-all flex items-center justify-center gap-3">
                              <Video size={18} /> {t.video}
                           </a>
                         )}
                         {selectedProject.videoDevOps && (
-                          <a href={selectedProject.videoDevOps} target="_blank" className="w-full px-8 py-5 border border-white/10 text-slate-300 font-black uppercase tracking-widest text-[10px] rounded-2xl text-center hover:bg-white/5 transition-all flex items-center justify-center gap-3">
+                          <a href={selectedProject.videoDevOps} target="_blank" className="w-full px-8 py-5 border border-white/10 text-white/80 font-black uppercase tracking-widest text-[10px] rounded-2xl text-center hover:bg-white/5 transition-all flex items-center justify-center gap-3">
                              <Monitor size={18} /> {t.devops}
                           </a>
                         )}
@@ -495,29 +501,31 @@ export default function App() {
                   </div>
                 </div>
 
-                <div className="grid md:grid-cols-2 gap-12 mb-16 border-t border-white/5 pt-16">
-                   {selectedProject.content[lang].problem && (
-                     <div>
-                       <h4 className="text-[10px] font-black uppercase tracking-widest text-[#f2c98a] mb-6 flex items-center gap-3 italic">
-                         <AlertTriangle size={16} /> {t.problem}
-                       </h4>
-                       <p className="text-slate-300 text-sm leading-relaxed italic">{selectedProject.content[lang].problem}</p>
-                     </div>
-                   )}
-                   {selectedProject.content[lang].solution && (
-                     <div>
-                       <h4 className="text-[10px] font-black uppercase tracking-widest text-[#f2c98a] mb-6 flex items-center gap-3 italic">
-                         <CheckCircle2 size={16} /> {t.solution}
-                       </h4>
-                       <p className="text-slate-300 text-sm leading-relaxed italic">{selectedProject.content[lang].solution}</p>
-                     </div>
-                   )}
-                </div>
+                {(selectedProject.content[lang].problem || selectedProject.content[lang].solution) && (
+                  <div className="grid md:grid-cols-2 gap-12 mb-16 border-t border-white/5 pt-16">
+                    {selectedProject.content[lang].problem && (
+                      <div>
+                        <h4 className="text-[10px] font-black uppercase tracking-widest text-[#f2c98a] mb-6 flex items-center gap-3">
+                          <AlertTriangle size={16} /> {t.problem}
+                        </h4>
+                        <p className="text-slate-100 text-sm leading-relaxed">{selectedProject.content[lang].problem}</p>
+                      </div>
+                    )}
+                    {selectedProject.content[lang].solution && (
+                      <div>
+                        <h4 className="text-[10px] font-black uppercase tracking-widest text-[#f2c98a] mb-6 flex items-center gap-3">
+                          <CheckCircle2 size={16} /> {t.solution}
+                        </h4>
+                        <p className="text-slate-100 text-sm leading-relaxed">{selectedProject.content[lang].solution}</p>
+                      </div>
+                    )}
+                  </div>
+                )}
 
-                <div className="border-t border-white/5 pt-16">
+                <div className={`${(selectedProject.content[lang].problem || selectedProject.content[lang].solution) ? 'border-t border-white/5 pt-16' : ''}`}>
                   {selectedProject.content[lang].achievements && (
                     <div>
-                      <h4 className="text-[10px] font-black uppercase tracking-widest text-[#f2c98a] mb-10 flex items-center gap-3 italic">
+                      <h4 className="text-[10px] font-black uppercase tracking-widest text-[#f2c98a] mb-10 flex items-center gap-3">
                         <Zap size={16} /> {t.achievements}
                       </h4>
                       <div className="grid md:grid-cols-2 gap-8">
@@ -526,7 +534,7 @@ export default function App() {
                              <div className="w-10 h-10 rounded-xl bg-[#f2c98a]/10 flex items-center justify-center text-[#f2c98a] font-black shrink-0 group-hover:bg-[#f2c98a] group-hover:text-[#0b0c1e] transition-all">
                                {i + 1}
                              </div>
-                             <p className="text-slate-300 text-[13px] leading-relaxed font-medium italic pt-2">{item}</p>
+                             <p className="text-slate-100 text-[13px] leading-relaxed font-medium pt-2">{item}</p>
                           </div>
                         ))}
                       </div>
@@ -540,7 +548,7 @@ export default function App() {
       </AnimatePresence>
 
       <footer className="w-full text-center py-20 border-t border-white/5 opacity-40">
-         <p className="text-[10px] font-black uppercase tracking-[1em] text-slate-500 italic uppercase">EYA BEN AMOR — CASE STUDIES — 2026</p>
+         <p className="text-[10px] font-black uppercase tracking-[1em] text-slate-500 uppercase">EYA BEN AMOR — CASE STUDIES — 2026</p>
       </footer>
     </div>
   );
