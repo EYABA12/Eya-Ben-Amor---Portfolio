@@ -171,7 +171,7 @@ Je souhaite rejoindre une équipe technique ambitieuse afin de contribuer à des
           "Modélisation du système via diagrammes UML"
         ],
         results: ["Processus d'intégration simplifié", "Centralisation des données"],
-        demo: "https://vimeo.com/937024450"
+        repo: "https://github.com/EYABA12/First-Year-Internship-Management-plateform-for-new-recruits"
       },
       {
         title: "Automatisation et Gestion Cloud",
@@ -413,7 +413,7 @@ I want to join an ambitious technical team where I can contribute to high-impact
           "System modeling via UML diagrams"
         ],
         results: ["Simplified onboarding process", "Data centralization"],
-        demo: "https://vimeo.com/937024450"
+        repo: "https://github.com/EYABA12/First-Year-Internship-Management-plateform-for-new-recruits"
       },
       {
         title: "Automation and Cloud Management",
