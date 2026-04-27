@@ -18,9 +18,9 @@ const content = {
       greeting: "Salut, je suis",
       name: "Eya Ben Amor",
       role: "Ingénieure Full Stack & DevOps — Certifiée ISTQB",
-      description: `Ingénieure Full Stack & DevOps diplômée de l’ENET’Com Sfax. J’ai acquis une expérience pratique à travers des projets professionnels, académiques et personnels, où j’ai conçu, développé et déployé des applications web sécurisées et évolutives en utilisant des pratiques DevOps modernes, notamment le CI/CD et la conteneurisation.
+      description: `J’ai acquis une expérience pratique à travers des projets professionnels, académiques et personnels, durant lesquels j’ai conçu, développé et déployé des applications web sécurisées et évolutives en utilisant des pratiques DevOps modernes, notamment le CI/CD et la conteneurisation.
 
-Passionnée par la qualité logicielle (QA) et certifiée ISTQB®, j’intègre des pratiques de test et des outils d’IA pour améliorer la productivité, la qualité du code et la rapidité de livraison.
+Passionnée par la qualité logicielle (QA), j’intègre des pratiques de test et des outils d’IA pour améliorer la productivité, la qualité du code et la rapidité de livraison.
 
 Ouverte aux opportunités en Développement Logiciel, DevOps et QA / Software Testing (temps plein, hybride ou remote — national ou international).`
     },
@@ -57,7 +57,7 @@ Ouverte aux opportunités en Développement Logiciel, DevOps et QA / Software Te
           period: "01/2025 — 06/2025",
           title: "Stagiaire Ingénieure Full-Stack & DevOps",
           place: "KPIT Technologies (Sfax, Tunisie)",
-          desc: "Développement d’une plateforme web pour l’exécution et la supervision de tests automobiles à distance, réduisant le temps de test de 40 % et les coûts matériels via l'automatisation CI/CD.",
+          desc: "Développement d’une plateforme web pour l’exécution et la supervision de tests automobiles à distance, réduisant le temps de test de 40 % et les coûts matériels via l’automatisation CI/CD.",
           skills: "Angular, Spring Boot, MySQL, CI/CD, Jenkins, Docker, Jira API, Git, Scrum",
           link: "https://github.com/EYABA12/End--of-Study-Internship"
         },
@@ -73,7 +73,7 @@ Ouverte aux opportunités en Développement Logiciel, DevOps et QA / Software Te
           period: "07/2023 — 09/2023",
           title: "Stagiaire Ingénieure en Développement Web",
           place: "Finlogik (Sfax, Tunisie)",
-          desc: "Développement d'une plateforme de gestion d'intégration pour les nouveaux employés (ASP.NET, Angular).",
+          desc: "Développement d’une plateforme de gestion d’intégration pour les nouveaux employés (ASP.NET, Angular).",
           skills: "Html, CSS, Angular, C#, ASP.NET, Bootstrap, UML, MySQL, Git, Agile (Scrum)",
           link: "https://github.com/EYABA12/First-Year-Internship-Management-plateform-for-new-recruits"
         }
@@ -133,9 +133,9 @@ Ouverte aux opportunités en Développement Logiciel, DevOps et QA / Software Te
       {
         title: "AI Invoice Data Extractor",
         date: "03/2026 – 04/2026",
-        category: "Développement Full Stack | AI-Powered Invoice Data Extraction",
+        category: "Développement Full Stack | Extraction intelligente de données de factures par IA",
         stack: ["Gemini API", "IA générative", "GitHub Copilot", "React", "Prompt Engineering"],
-        summary: "La saisie manuelle des données de factures depuis des fichiers PDF ou des images vers Excel est un processus lent.",
+        summary: "La saisie manuelle des données de factures à partir de fichiers PDF ou d’images vers Excel est un processus lent, répétitif et sujet aux erreurs.",
         steps: [
           "Conception d’une application web responsive convertissant automatiquement des factures en Excel structuré en quelques secondes",
           "Réduction estimée de 80–90 % du temps de saisie manuelle",
@@ -162,7 +162,7 @@ Ouverte aux opportunités en Développement Logiciel, DevOps et QA / Software Te
         title: "Plateforme de gestion de nouveaux employés",
         company: "Finlogik",
         date: "07/2023 – 09/2023",
-        category: "Full Stack Development",
+        category: "Développement Full Stack",
         stack: ["Angular", "C#", "ASP.NET", "MySQL", "UML"],
         summary: "Développement d’une plateforme pour automatiser l’intégration des nouveaux collaborateurs.",
         steps: [
@@ -253,7 +253,7 @@ Ouverte aux opportunités en Développement Logiciel, DevOps et QA / Software Te
       greeting: "Hi, I'm",
       name: "Eya Ben Amor",
       role: "Full Stack & DevOps Engineer — ISTQB Certified",
-      description: `I gained practical experience through professional, academic, and personal projects, where I designed, developed, and deployed secure, scalable web applications using modern DevOps practices including CI/CD and containerization.
+      description: `I gained practical experience through professional, academic, and personal projects, during which I designed, developed, and deployed secure and scalable web applications using modern DevOps practices, including CI/CD and containerization.
 
 Passionate about software quality (QA), I integrate testing practices and AI tools to enhance productivity, code quality, and delivery speed.
 
@@ -368,7 +368,7 @@ Open to opportunities in Software Development, DevOps, and QA / Software Testing
       {
         title: "AI Invoice Data Extractor",
         date: "03/2026 – 04/2026",
-        category: "Full Stack Development | AI-Powered Invoice Data Extraction",
+        category: "Full Stack Engineering | AI-Powered Invoice Data Extraction",
         stack: ["Gemini API", "Generative AI", "GitHub Copilot", "React", "Prompt Engineering"],
         summary: "Manual entry of invoice data from PDF files or images to Excel is a slow, repetitive, and error-prone process.",
         steps: [
@@ -381,7 +381,7 @@ Open to opportunities in Software Development, DevOps, and QA / Software Testing
       {
         title: "Restaurant Management App",
         date: "01/2026 – 02/2026",
-        category: "Full Stack Development || Software Testing",
+        category: "Full Stack Engineering || Software Testing",
         stack: ["Angular", "Spring Boot", "Spring Security", "JWT", "Docker", "REST API"],
         summary: "Development of a restaurant management web application, from design to production.",
         steps: [
@@ -397,7 +397,7 @@ Open to opportunities in Software Development, DevOps, and QA / Software Testing
         title: "New Employee Onboarding Platform",
         company: "Finlogik",
         date: "07/2023 – 09/2023",
-        category: "Full Stack Development",
+        category: "Full Stack Engineering",
         stack: ["Angular", "C#", "ASP.NET", "MySQL", "UML"],
         summary: "Development of a platform to automate the onboarding of new employees.",
         steps: [
