@@ -4,7 +4,7 @@ import { motion, AnimatePresence } from "motion/react";
 
 const content = {
   fr: {
-    welcome: "Bienvenue sur mon portfolio",
+    welcome: "Bienvenue sur mon portfolio", 
     nav: {
       home: "Accueil",
       projects: "Projets",
@@ -17,10 +17,12 @@ const content = {
     hero: {
       greeting: "Salut, je suis",
       name: "Eya Ben Amor",
-      role: "Ingénieure Full Stack & DevOps",
-      description: `Ingénieure Full Stack & DevOps diplômée de l'ENET'Com Sfax (rang 11/74). Je développe des applications web sécurisées et évolutives, de la conception jusqu’au déploiement, en utilisant la conteneurisation et des pipelines CI/CD.
-J’ai acquis une expérience pratique à travers plusieurs stages (KPIT Technologies, Piximind, Finlogik) ainsi que des projets freelance. Certifiée ISTQB® et Microsoft Azure, je m’intéresse également aux outils d’IA pour apprendre plus rapidement et améliorer l’efficacité du développement.
-Je souhaite rejoindre une équipe technique ambitieuse afin de contribuer à des projets à fort impact tout en continuant à progresser.`
+      role: "Ingénieure Full Stack & DevOps — Certifiée ISTQB",
+      description: `Ingénieure Full Stack & DevOps diplômée de l’ENET’Com Sfax. J’ai acquis une expérience pratique à travers des projets professionnels, académiques et personnels, où j’ai conçu, développé et déployé des applications web sécurisées et évolutives en utilisant des pratiques DevOps modernes, notamment le CI/CD et la conteneurisation.
+
+Passionnée par la qualité logicielle (QA) et certifiée ISTQB®, j’intègre des pratiques de test et des outils d’IA pour améliorer la productivité, la qualité du code et la rapidité de livraison.
+
+Ouverte aux opportunités en Développement Logiciel, DevOps et QA / Software Testing (temps plein, hybride ou remote — national ou international).`
     },
     languages: {
       title: "Mes",
@@ -90,8 +92,8 @@ Je souhaite rejoindre une équipe technique ambitieuse afin de contribuer à des
       categories: [
         { title: "Développement Web", items: ["Angular", "Spring Boot", "TypeScript", "Java", "Bootstrap", "SQL Server", "MySQL", "REST APIs", "HTML5", "CSS3", "C# (.NET)"], icon: "Layout" },
         { title: "DevOps & Cloud", items: ["CI/CD (Jenkins, GitHub Actions, Argo CD)", "Docker", "Kubernetes", "Terraform", "Ansible", "Azure (certifiée)"], icon: "Settings" },
-        { title: "Sécurité & Qualité", items: ["Spring Security", "JWT", "Clean Code", "SOLID", "ISTQB"], icon: "Award" },
-        { title: "Versioning & Agile", items: ["Git", "Jira", "Trello", "Méthodes Scrum/Kanban"], icon: "CheckCircle2" },
+        { title: "Sécurité & Qualité", items: ["Spring Security", "JWT", "SOLID", "ISTQB"], icon: "Award" },
+        { title: "Versioning & Agile", items: ["Git", "Jira", "Trello", "Méthode Scrum"], icon: "CheckCircle2" },
       ]
     },
     certificates: {
@@ -126,35 +128,34 @@ Je souhaite rejoindre une équipe technique ambitieuse afin de contribuer à des
     },
     footer: "© 2026 — Eya Ben Amor",
     workflowTitle: "Flux de Travail",
-    impactTitle: "Impact & Résultats",
     projectsData: [
  
       {
         title: "AI Invoice Data Extractor",
         date: "03/2026 – 04/2026",
-        category: "Full Stack Development | Automation",
+        category: "Développement Full Stack | AI-Powered Invoice Data Extraction",
         stack: ["Gemini API", "IA générative", "GitHub Copilot", "React", "Prompt Engineering"],
-        summary: "La saisie manuelle des données de factures depuis des fichiers PDF ou des images vers Excel est un processus lent",
+        summary: "La saisie manuelle des données de factures depuis des fichiers PDF ou des images vers Excel est un processus lent.",
         steps: [
           "Conception d’une application web responsive convertissant automatiquement des factures en Excel structuré en quelques secondes",
           "Réduction estimée de 80–90 % du temps de saisie manuelle",
           "Intégration de Gemini API et techniques de Prompt Engineering pour améliorer la précision d’extraction des données"
         ],
-        results: ["Jusqu’à 90% de gain de productivité"],
         demo: "https://vimeo.com/1186769883"
       },
       {
         title: "Application de Gestion de Restaurant",
         date: "01/2026 – 02/2026",
-        category: "Full Stack Development",
+        category: "Développement Full Stack || Software Testing",
         stack: ["Angular", "Spring Boot", "Spring Security", "JWT", "Docker", "REST API"],
         summary: "Développement d'une application web de gestion de restaurant, de la conception à la mise en production.",
         steps: [
-          "Sécurisation des APIs REST avec Spring Security & JWT pour garantir l’authentification et l’autorisation",
+          "Conception et développement d’APIs RESTful via Spring Boot",
+          "Sécurisation des APIs avec Spring Security & JWT pour garantir l’authentification et l’autorisation",
+          "Tests fonctionnels des fonctionnalités clés (commandes, menu, utilisateurs) pour valider le comportement de l’application et assurer la fiabilité",
           "Conteneurisation avec Docker pour faciliter le déploiement et réduire les erreurs liées à l’environnement d’environ 50 %",
           "Utilisation d’outils d’IA pour accélérer le développement et réduire d’environ 30% le temps consacré aux tâches répétitives"
         ],
-        results: ["Déploiement simplifié", "Sécurité renforcée"],
         demo: "https://vimeo.com/1163326267"
       },
       {
@@ -170,23 +171,22 @@ Je souhaite rejoindre une équipe technique ambitieuse afin de contribuer à des
           "Interface utilisateur dynamique avec Angular et Bootstrap",
           "Modélisation du système via diagrammes UML"
         ],
-        results: ["Processus d'intégration simplifié", "Centralisation des données"],
         repo: "https://github.com/EYABA12/First-Year-Internship-Management-plateform-for-new-recruits"
       },
       {
         title: "Automatisation et Gestion Cloud",
         company: "Piximind",
         date: "06/2024 – 08/2024",
-        category: "DevOps | Cloud | Infrastructure as Code",
+        category: "DevOps | Cloud | Infrastructure as Code | CI/CD | QA",
         stack: ["Docker", "Terraform", "Ansible", "Azure", "Jenkins"],
-        summary: "Automatisation du déploiement et de la gestion de l'infrastructure cloud via des outils IaC.",
+        summary: "Automatisation du déploiement d’applications et de la gestion de l’infrastructure cloud, réduisant le temps de déploiement et les erreurs manuelles.",
         steps: [
-          "Provisionnement de ressources sur Azure avec Terraform",
-          "Configuration automatisée des serveurs via Ansible",
-          "Mise en place de pipelines CI/CD Jenkins",
-          "Gestion des conteneurs via Docker"
+          "Conteneurisation de l’application via Docker et Docker Compose, permettant un déploiement sur 5 environnements différents sans conflits.",
+          "Adoption de l’Infrastructure as Code (IaC) avec Terraform, réduisant le temps de gestion des ressources cloud de 60 %.",
+          "Mise en place d’une plateforme d’automatisation informatique avec Ansible, optimisant la configuration des serveurs et minimisant les erreurs humaines.",
+          "Configuration d’un pipeline CI/CD Jenkins pour le déploiement automatisé sur une machine virtuelle Azure, accélérant le cycle de livraison de 3 à 5 fois.",
+          "Exécution de tests automatisés au sein du pipeline CI/CD Jenkins avant le déploiement sur Azure VM, garantissant la stabilité du système et la détection précoce des défaillances."
         ],
-        results: ["Réduction des erreurs de config de 40%", "Efficacité accrue"],
         architecture: "https://raw.githubusercontent.com/EYABA12/Second-Year-Internship-Automate-Application-Deployment-and-Cloud-Management/master/architecture.png",
         repo: "https://github.com/EYABA12/Automate-the-deployment-of-the-application-and-the-management-of-the-cloud-infrastructure.git"
       },
@@ -201,14 +201,13 @@ Je souhaite rejoindre une équipe technique ambitieuse afin de contribuer à des
           "Synchronisation automatique des environnements de développement et de production via GitOps (ArgoCD)",
           "Mise en place de sauvegardes automatiques pour garantir la sécurité et la haute disponibilité des données"
         ],
-        results: ["Déploiements 70% plus rapides"],
         demo: "https://vimeo.com/1026327529",
         repo: "https://github.com/EYABA12/Automated-deployment-in-a-Kubernetes-cluster-with-Jenkins-and-ArgoCD"
       },
       {
         title: "Création et déploiement d’un site e-commerce",
         date: "01/2024 – 04/2024",
-        category: "Full Stack | Devops |Cloud  ",
+        category: "Full Stack | DevOps | Cloud",
         stack: ["Java", "Angular", "Spring Boot", "MySQL", "Docker", "GitHub Actions", "Azure", "CI/CD"],
         summary: "Développement et déploiement d’une application e-commerce avec automatisation CI/CD sur Azure Cloud.",
         steps: [
@@ -216,11 +215,6 @@ Je souhaite rejoindre une équipe technique ambitieuse afin de contribuer à des
           "Conteneurisation avec Docker pour garantir la portabilité",
           "Mise en place d’un pipeline CI/CD avec GitHub Actions",
           "Déploiement automatisé sur Azure Cloud"
-        ],
-        results: [
-          "Déploiement ~70% plus rapide",
-          "Mises à jour automatiques après chaque push",
-          "Réduction des erreurs de configuration"
         ],
         demos: [
           "https://player.vimeo.com/video/942130175",
@@ -240,7 +234,6 @@ Je souhaite rejoindre une équipe technique ambitieuse afin de contribuer à des
           "Intégration de Jira API pour le bug tracking et la collaboration QA–Dev",
           "Automatisation des workflows test & déploiement via des pipelines CI/CD Jenkins"
         ],
-        results: ["Réduction du temps de test de 40 %", "Optimisation des coûts matériels"],
         demo: "https://vimeo.com/1165653912"
       }
     ]
@@ -259,10 +252,12 @@ Je souhaite rejoindre une équipe technique ambitieuse afin de contribuer à des
     hero: {
       greeting: "Hi, I'm",
       name: "Eya Ben Amor",
-      role: "Full Stack & DevOps Engineer ",
-      description: `Full Stack & DevOps Engineer graduated from ENET'Com Sfax (ranked 11th/74). I develop secure and scalable web applications, from design up to deployment, using containerization and CI/CD pipelines.
-I have gained practical experience through several internships (KPIT Technologies, Piximind, Finlogik) as well as freelance projects. Certified ISTQB® and Microsoft Azure, I am also interested in AI tools to learn faster and improve development efficiency.
-I want to join an ambitious technical team where I can contribute to high-impact projects while continuing to progress.`
+      role: "Full Stack & DevOps Engineer — ISTQB Certified",
+      description: `I gained practical experience through professional, academic, and personal projects, where I designed, developed, and deployed secure, scalable web applications using modern DevOps practices including CI/CD and containerization.
+
+Passionate about software quality (QA), I integrate testing practices and AI tools to enhance productivity, code quality, and delivery speed.
+
+Open to opportunities in Software Development, DevOps, and QA / Software Testing (full-time, hybrid, or remote — national or international).`
     },
     languages: {
       title: "My",
@@ -332,8 +327,8 @@ I want to join an ambitious technical team where I can contribute to high-impact
       categories: [
         { title: "Web Development", items: ["Angular", "Spring Boot", "TypeScript", "Java", "Bootstrap", "SQL Server", "MySQL", "REST APIs", "HTML5", "CSS3", "C# (.NET)"], icon: "Layout" },
         { title: "DevOps & Cloud", items: ["CI/CD (Jenkins, GitHub Actions, Argo CD)", "Docker", "Kubernetes", "Terraform", "Ansible", "Azure (certified)"], icon: "Settings" },
-        { title: "Security & Quality", items: ["Spring Security", "JWT", "Clean Code", "SOLID", "ISTQB"], icon: "Award" },
-        { title: "Versioning & Agile", items: ["Git", "Jira", "Trello", "Scrum/Kanban Methods"], icon: "CheckCircle2" },
+        { title: "Security & Quality", items: ["Spring Security", "JWT", "SOLID", "ISTQB"], icon: "Award" },
+        { title: "Versioning & Agile", items: ["Git", "Jira", "Trello", "Scrum Method"], icon: "CheckCircle2" },
       ]
     },
     certificates: {
@@ -368,13 +363,12 @@ I want to join an ambitious technical team where I can contribute to high-impact
     },
     footer: "© 2026 — Eya Ben Amor",
     workflowTitle: "Project Workflow",
-    impactTitle: "Impact & Results",
     projectsData: [
 
       {
         title: "AI Invoice Data Extractor",
         date: "03/2026 – 04/2026",
-        category: "Full Stack Development | Automation",
+        category: "Full Stack Development | AI-Powered Invoice Data Extraction",
         stack: ["Gemini API", "Generative AI", "GitHub Copilot", "React", "Prompt Engineering"],
         summary: "Manual entry of invoice data from PDF files or images to Excel is a slow, repetitive, and error-prone process.",
         steps: [
@@ -382,21 +376,21 @@ I want to join an ambitious technical team where I can contribute to high-impact
           "Estimated 80–90% reduction in manual entry time",
           "Integration of Gemini API and Prompt Engineering techniques to improve data extraction accuracy"
         ],
-        results: ["Up to 90% productivity gain"],
         demo: "https://vimeo.com/1186769883"
       },
       {
         title: "Restaurant Management App",
         date: "01/2026 – 02/2026",
-        category: "Full Stack Development",
+        category: "Full Stack Development || Software Testing",
         stack: ["Angular", "Spring Boot", "Spring Security", "JWT", "Docker", "REST API"],
         summary: "Development of a restaurant management web application, from design to production.",
         steps: [
-          "Securing REST APIs with Spring Security & JWT to guarantee authentication and authorization",
-          "Containerization with Docker to facilitate deployment and reduce environment errors by ~50%",
-          "Using AI tools to accelerate development and reduce time spent on repetitive tasks by about 30%"
+          "Design and development of RESTful APIs using Spring Boot.",
+          "Securing APIs with Spring Security & JWT to ensure authentication and authorization.",
+          "Functional testing of core features (orders, menu, users) to validate application behavior and ensure reliability.",
+          "Containerization with Docker to facilitate deployment and reduce environment errors by ~50%.",
+          "Using AI tools to accelerate development and reduce time spent on repetitive tasks by about 30%."
         ],
-        results: ["Simplified deployment", "Enhanced security"],
         demo: "https://vimeo.com/1163326267"
       },
       {
@@ -412,23 +406,22 @@ I want to join an ambitious technical team where I can contribute to high-impact
           "Dynamic user interface with Angular and Bootstrap",
           "System modeling via UML diagrams"
         ],
-        results: ["Simplified onboarding process", "Data centralization"],
         repo: "https://github.com/EYABA12/First-Year-Internship-Management-plateform-for-new-recruits"
       },
       {
         title: "Automation and Cloud Management",
         company: "Piximind",
         date: "06/2024 – 08/2024",
-        category: "DevOps | Cloud | Infrastructure as Code",
+        category: "DevOps | Cloud | Infrastructure as Code | CI/CD | QA",
         stack: ["Docker", "Terraform", "Ansible", "Azure", "Jenkins"],
-        summary: "Automation of deployment and management of cloud infrastructure via IaC tools.",
+        summary: "Automation of application deployment and cloud infrastructure management, reducing deployment time and manual errors.",
         steps: [
-          "Azure resource provisioning with Terraform",
-          "Automated server configuration via Ansible",
-          "Setup of Jenkins CI/CD pipelines",
-          "Docker container management"
+          "Containerization of the application using Docker and Docker Compose, enabling deployment across 5 different environments without conflicts.",
+          "Adoption of Infrastructure as Code (IaC) with Terraform, reducing cloud resource management time by 60%.",
+          "Implementation of an IT automation platform using Ansible, optimizing server configuration and minimizing human errors.",
+          "Setup of a Jenkins CI/CD pipeline for automated deployment on an Azure virtual machine, accelerating the delivery cycle by 3 to 5 times.",
+          "Execution of automated tests within the Jenkins CI/CD pipeline before deployment to Azure VM, ensuring system stability and early detection of failures."
         ],
-        results: ["40% reduction in config errors", "Increased efficiency"],
         architecture: "https://raw.githubusercontent.com/EYABA12/Second-Year-Internship-Automate-Application-Deployment-and-Cloud-Management/master/architecture.png",
         repo: "https://github.com/EYABA12/Automate-the-deployment-of-the-application-and-the-management-of-the-cloud-infrastructure.git"
       },
@@ -443,14 +436,13 @@ I want to join an ambitious technical team where I can contribute to high-impact
           "Automatic synchronization of development and production environments via GitOps (ArgoCD)",
           "Implementation of automatic backups to ensure data security and high availability"
         ],
-        results: ["Deployments 70% faster"],
         demo: "https://vimeo.com/1026327529",
         repo: "https://github.com/EYABA12/Automated-deployment-in-a-Kubernetes-cluster-with-Jenkins-and-ArgoCD"
       },
       {
         title: "E-commerce Site Creation and Deployment",
         date: "01/2024 – 04/2024",
-        category: "Full Stack | Devops | Cloud",
+        category: "Full Stack | DevOps | Cloud",
         stack: ["Java", "Angular", "Spring Boot", "MySQL", "Docker", "GitHub Actions", "Azure", "CI/CD"],
         summary: "Development and deployment of an e-commerce application with CI/CD automation on Azure Cloud.",
         steps: [
@@ -458,11 +450,6 @@ I want to join an ambitious technical team where I can contribute to high-impact
           "Containerization with Docker to guarantee portability",
           "Setup of a CI/CD pipeline with GitHub Actions",
           "Automated deployment on Azure Cloud"
-        ],
-        results: [
-          "Deployment ~70% faster",
-          "Automatic updates after each push",
-          "Reduced configuration errors"
         ],
         demos: [
           "https://player.vimeo.com/video/942130175",
@@ -482,7 +469,6 @@ I want to join an ambitious technical team where I can contribute to high-impact
           "Jira API integration for bug tracking and QA-Dev collaboration",
           "Automation of test & deployment workflows via Jenkins CI/CD pipelines"
         ],
-        results: ["40% reduction in test time", "Optimization of hardware costs"],
         demo: "https://vimeo.com/1165653912"
       }
     ]
@@ -490,7 +476,12 @@ I want to join an ambitious technical team where I can contribute to high-impact
 };
 
 export default function App() {
-  const [lang, setLang] = useState("fr");
+  const [lang, setLang] = useState(() => {
+    if (typeof window !== "undefined" && navigator.language) {
+      return navigator.language.startsWith("fr") ? "fr" : "en";
+    }
+    return "fr";
+  });
   const [activeTab, setActiveTab] = useState("exp");
   const [selectedProject, setSelectedProject] = useState(null);
   const [scrolled, setScrolled] = useState(false);
@@ -929,9 +920,8 @@ export default function App() {
                 </div>
               )}
 
-              <div className="grid md:grid-cols-2 gap-8">
                 {selectedProject.steps && (
-                  <div>
+                  <div className="max-w-xl">
                     <h3 className="text-lg font-bold mb-4 flex items-center gap-2 text-white">
                       <Award size={18} className="text-cyan-400" /> {t.workflowTitle}
                     </h3>
@@ -945,20 +935,6 @@ export default function App() {
                     </ul>
                   </div>
                 )}
-                <div>
-                  <h3 className="text-lg font-bold mb-4 flex items-center gap-2 text-white">
-                    <Award size={18} className="text-cyan-400" /> {t.impactTitle}
-                  </h3>
-                   <ul className="space-y-3">
-                      {selectedProject.results.map((r, i) => (
-                        <li key={i} className="text-sm text-slate-400 flex gap-3">
-                          <span className="text-cyan-400 font-bold">✔</span>
-                          {r}
-                        </li>
-                      ))}
-                    </ul>
-                </div>
-              </div>
               <div className="flex gap-4 mt-10">
                 {selectedProject.repo && (
                   <a href={selectedProject.repo} target="_blank" rel="noreferrer" className="flex-1 bg-white/5 border border-white/10 py-3 rounded-2xl text-center font-bold text-sm hover:bg-white/10 transition-all flex items-center justify-center gap-2">
