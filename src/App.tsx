@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from "react";
-import { Github, Linkedin, Mail, ExternalLink, Languages, Code2, GraduationCap, Briefcase, Award, ChevronRight, User, Lightbulb, Layout, Server, Settings, CheckCircle2 } from "lucide-react";
+import { Github, Linkedin, Mail, ExternalLink, Languages, Code2, GraduationCap, Briefcase, Award, ChevronRight, User, Lightbulb, Layout, Server, Settings, CheckCircle2, BookOpen } from "lucide-react";
 import { motion, AnimatePresence } from "motion/react";
 
 const content = {
@@ -84,7 +84,8 @@ Ouverte aux opportunités en Développement Logiciel, DevOps et QA / Software Te
       subtitle: "Projets",
       code: "Code",
       demo: "Démo",
-      viewMore: "Voir Détails"
+      viewMore: "Voir Détails",
+      article: "Lire Article"
     },
     skills: {
       title: "Mes",
@@ -191,7 +192,7 @@ Ouverte aux opportunités en Développement Logiciel, DevOps et QA / Software Te
         repo: "https://github.com/EYABA12/Automate-the-deployment-of-the-application-and-the-management-of-the-cloud-infrastructure.git"
       },
       {
-        title: "Déploiement automatisé Kubernetes avec Jenkins & ArgoCD",
+        title: "Pipeline CI/CD Kubernetes automatisé avec Jenkins et ArgoCD",
         date: "09/2025 – 10/2025",
         category: "DevOps | Cloud",
         stack: ["Kubernetes", "Helm", "Jenkins", "ArgoCD", "Git", "Docker", "CI/CD", "CronJobs"],
@@ -201,8 +202,10 @@ Ouverte aux opportunités en Développement Logiciel, DevOps et QA / Software Te
           "Synchronisation automatique des environnements de développement et de production via GitOps (ArgoCD)",
           "Mise en place de sauvegardes automatiques pour garantir la sécurité et la haute disponibilité des données"
         ],
+        architecture: "https://lh3.googleusercontent.com/d/1YCGCi18FDxSdy9AuhCYqQ21WC0dqvowG",
         demo: "https://vimeo.com/1026327529",
-        repo: "https://github.com/EYABA12/Automated-deployment-in-a-Kubernetes-cluster-with-Jenkins-and-ArgoCD"
+        repo: "https://github.com/EYABA12/Automated-deployment-in-a-Kubernetes-cluster-with-Jenkins-and-ArgoCD",
+        article: "https://medium.com/@benamoreya57/39e18a98969f"
       },
       {
         title: "Création et déploiement d’un site e-commerce",
@@ -319,7 +322,8 @@ Open to opportunities in Software Development, DevOps, and QA / Software Testing
       subtitle: "Projects",
       code: "Code",
       demo: "Demo",
-      viewMore: "View Details"
+      viewMore: "View Details",
+      article: "Read Article"
     },
     skills: {
       title: "My",
@@ -426,7 +430,7 @@ Open to opportunities in Software Development, DevOps, and QA / Software Testing
         repo: "https://github.com/EYABA12/Automate-the-deployment-of-the-application-and-the-management-of-the-cloud-infrastructure.git"
       },
       {
-        title: "Automated Kubernetes Deployment with Jenkins & ArgoCD",
+        title: "Automated Kubernetes CI/CD Pipeline with Jenkins and ArgoCD",
         date: "09/2025 – 10/2025",
         category: "DevOps | Cloud",
         stack: ["Kubernetes", "Helm", "Jenkins", "ArgoCD", "Git", "Docker", "CI/CD", "CronJobs"],
@@ -436,8 +440,10 @@ Open to opportunities in Software Development, DevOps, and QA / Software Testing
           "Automatic synchronization of development and production environments via GitOps (ArgoCD)",
           "Implementation of automatic backups to ensure data security and high availability"
         ],
+        architecture: "https://lh3.googleusercontent.com/d/1YCGCi18FDxSdy9AuhCYqQ21WC0dqvowG",
         demo: "https://vimeo.com/1026327529",
-        repo: "https://github.com/EYABA12/Automated-deployment-in-a-Kubernetes-cluster-with-Jenkins-and-ArgoCD"
+        repo: "https://github.com/EYABA12/Automated-deployment-in-a-Kubernetes-cluster-with-Jenkins-and-ArgoCD",
+        article: "https://medium.com/@benamoreya57/cc8b89384795"
       },
       {
         title: "E-commerce Site Creation and Deployment",
@@ -935,15 +941,20 @@ export default function App() {
                     </ul>
                   </div>
                 )}
-              <div className="flex gap-4 mt-10">
+              <div className="flex flex-wrap gap-4 mt-10">
                 {selectedProject.repo && (
-                  <a href={selectedProject.repo} target="_blank" rel="noreferrer" className="flex-1 bg-white/5 border border-white/10 py-3 rounded-2xl text-center font-bold text-sm hover:bg-white/10 transition-all flex items-center justify-center gap-2">
+                  <a href={selectedProject.repo} target="_blank" rel="noreferrer" className="flex-1 min-w-[140px] bg-white/5 border border-white/10 py-3 rounded-2xl text-center font-bold text-sm hover:bg-white/10 transition-all flex items-center justify-center gap-2">
                     <Github size={16} /> {t.projects.code}
                   </a>
                 )}
                 {selectedProject.demo && (
-                  <a href={selectedProject.demo} target="_blank" rel="noreferrer" className="flex-1 bg-cyan-400 text-slate-950 py-3 rounded-2xl text-center font-bold text-sm hover:shadow-[0_0_20px_rgba(34,211,238,0.4)] transition-all flex items-center justify-center gap-2">
+                  <a href={selectedProject.demo} target="_blank" rel="noreferrer" className="flex-1 min-w-[140px] bg-cyan-400 text-slate-950 py-3 rounded-2xl text-center font-bold text-sm hover:shadow-[0_0_20px_rgba(34,211,238,0.4)] transition-all flex items-center justify-center gap-2">
                     <ExternalLink size={16} /> {t.projects.demo}
+                  </a>
+                )}
+                {selectedProject.article && (
+                  <a href={selectedProject.article} target="_blank" rel="noreferrer" className="flex-1 min-w-[140px] bg-white text-slate-950 py-3 rounded-2xl text-center font-bold text-sm hover:shadow-[0_0_20px_rgba(255,255,255,0.4)] transition-all flex items-center justify-center gap-2">
+                    <BookOpen size={16} /> {t.projects.article}
                   </a>
                 )}
               </div>
