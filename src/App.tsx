@@ -102,6 +102,12 @@ Ouverte aux opportunités en Développement Logiciel, DevOps et QA / Software Te
        subtitle: "Certifications",
        list: [
          {
+           name: "Mastering API Management for Generative AI in Azure",
+           date: "4 mai 2026",
+           link: "https://drive.google.com/file/d/11bx81WToGvnIJrBbYo9i6-XBqJn7nGhQ/view?usp=drive_link",
+           image: "https://lh3.googleusercontent.com/d/11bx81WToGvnIJrBbYo9i6-XBqJn7nGhQ"
+         },
+         {
            name: "Gestion de projet Agile & fondamentaux Scrum",
            date: "4 avril 2026",
            link: "https://drive.google.com/file/d/1IepHdISIVy9sG8TNaELfqvFVJ-bffZAX/view?pli=1",
@@ -339,6 +345,12 @@ Open to opportunities in Software Development, DevOps, and QA / Software Testing
        title: "My",
        subtitle: "Certifications",
        list: [
+         {
+           name: "Mastering API Management for Generative AI in Azure",
+           date: "May 4, 2026",
+           link: "https://drive.google.com/file/d/11bx81WToGvnIJrBbYo9i6-XBqJn7nGhQ/view?usp=drive_link",
+           image: "https://lh3.googleusercontent.com/d/11bx81WToGvnIJrBbYo9i6-XBqJn7nGhQ"
+         },
          {
            name: "Agile Project Management & Scrum Fundamentals",
            date: "April 4, 2026",
