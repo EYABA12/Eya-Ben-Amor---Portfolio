@@ -103,7 +103,7 @@ Ouverte aux opportunités en Développement Logiciel, DevOps et QA / Software Te
        list: [
          {
            name: "Mastering API Management for Generative AI in Azure",
-           date: "4 mai 2026",
+           date: "1 mai 2026",
            link: "https://drive.google.com/file/d/11bx81WToGvnIJrBbYo9i6-XBqJn7nGhQ/view?usp=drive_link",
            image: "https://lh3.googleusercontent.com/d/11bx81WToGvnIJrBbYo9i6-XBqJn7nGhQ"
          },
@@ -121,10 +121,28 @@ Ouverte aux opportunités en Développement Logiciel, DevOps et QA / Software Te
            image: "https://lh3.googleusercontent.com/d/1JK5YTRDLhAvBbOHWuMZC2mE_lWvRPGl1"
          },
          {
+           name: "Certification Kubernetes",
+           date: "28 juillet 2025",
+           link: "https://drive.google.com/file/d/1pDcrtn_CcDR6YfDSVmCk3dYXdZMHbHpf/view?usp=sharing",
+           image: "https://lh3.googleusercontent.com/d/1pDcrtn_CcDR6YfDSVmCk3dYXdZMHbHpf"
+         },
+         {
+           name: "Introduction au Shell Scripting",
+           date: "28 juillet 2025",
+           link: "https://drive.google.com/file/d/1pDcrtn_CcDR6YfDSVmCk3dYXdZMHbHpf/view?usp=sharing",
+           image: "https://lh3.googleusercontent.com/d/1pDcrtn_CcDR6YfDSVmCk3dYXdZMHbHpf"
+         },
+         {
            name: "Certification Microsoft Azure",
            date: "15 novembre 2023",
            link: "https://drive.google.com/file/d/135UF7Ue34tJNxZBqHZIbMFSf1zy89JJk/view",
            image: "https://lh3.googleusercontent.com/d/135UF7Ue34tJNxZBqHZIbMFSf1zy89JJk"
+         },
+         {
+           name: "Introduction à Docker",
+           date: "22 octobre 2023",
+           link: "https://drive.google.com/file/d/1K8yq9p0pTofpVlhZbFe9M6Md_PFOTEJy/view?usp=sharing",
+           image: "https://lh3.googleusercontent.com/d/1K8yq9p0pTofpVlhZbFe9M6Md_PFOTEJy"
          }
        ]
     },
@@ -347,7 +365,7 @@ Open to opportunities in Software Development, DevOps, and QA / Software Testing
        list: [
          {
            name: "Mastering API Management for Generative AI in Azure",
-           date: "May 4, 2026",
+           date: "May 1, 2026",
            link: "https://drive.google.com/file/d/11bx81WToGvnIJrBbYo9i6-XBqJn7nGhQ/view?usp=drive_link",
            image: "https://lh3.googleusercontent.com/d/11bx81WToGvnIJrBbYo9i6-XBqJn7nGhQ"
          },
@@ -365,10 +383,28 @@ Open to opportunities in Software Development, DevOps, and QA / Software Testing
            image: "https://lh3.googleusercontent.com/d/1JK5YTRDLhAvBbOHWuMZC2mE_lWvRPGl1"
          },
          {
+           name: "Kubernetes Certification",
+           date: "July 28, 2025",
+           link: "https://drive.google.com/file/d/1pDcrtn_CcDR6YfDSVmCk3dYXdZMHbHpf/view?usp=sharing",
+           image: "https://lh3.googleusercontent.com/d/1pDcrtn_CcDR6YfDSVmCk3dYXdZMHbHpf"
+         },
+         {
+           name: "Introduction to Shell Scripting",
+           date: "July 28, 2025",
+           link: "https://drive.google.com/file/d/1pDcrtn_CcDR6YfDSVmCk3dYXdZMHbHpf/view?usp=sharing",
+           image: "https://lh3.googleusercontent.com/d/1pDcrtn_CcDR6YfDSVmCk3dYXdZMHbHpf"
+         },
+         {
            name: "Microsoft Azure Certification",
            date: "November 15, 2023",
            link: "https://drive.google.com/file/d/135UF7Ue34tJNxZBqHZIbMFSf1zy89JJk/view",
            image: "https://lh3.googleusercontent.com/d/135UF7Ue34tJNxZBqHZIbMFSf1zy89JJk"
+         },
+         {
+           name: "Introduction to Docker",
+           date: "October 22, 2023",
+           link: "https://drive.google.com/file/d/1K8yq9p0pTofpVlhZbFe9M6Md_PFOTEJy/view?usp=sharing",
+           image: "https://lh3.googleusercontent.com/d/1K8yq9p0pTofpVlhZbFe9M6Md_PFOTEJy"
          }
        ]
     },
