@@ -897,11 +897,7 @@ export default function App() {
                           <p className="text-xs text-slate-500 italic">{item.skills}</p>
                         </div>
                       )}
-                      {item.link && (
-                        <a href={item.link} target="_blank" rel="noreferrer" className="inline-flex items-center gap-2 text-xs font-bold text-cyan-400 border border-cyan-400/30 px-3 py-1.5 rounded-lg hover:bg-cyan-400 hover:text-slate-950 transition-all">
-                          <Github size={14} /> {lang === 'fr' ? 'Voir Repository' : 'View Repository'}
-                        </a>
-                      )}
+
                     </div>
                   </div>
                 </div>
